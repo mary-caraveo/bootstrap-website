@@ -46,6 +46,11 @@
 #place-time img {
   max-width: 100%;
 }
+
+#ignite abbr{
+color: #82ad36;
+text-decoration: none;
+}
 #footer {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
 }

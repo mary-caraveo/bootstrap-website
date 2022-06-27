@@ -1,15 +1,28 @@
-.text-platzi {
-  color: #97c93e !important;
+.text-header {
+  color: #5fd068 !important;
 }
 
-.btn-platzi {
-  background-color: #97c93e;
+.btn-main {
+  background-color: #5fd068;
   color: white !important;
+  border: 1px solid #57ba5f;
+  padding: 0.6rem 1rem;
 }
 
-.btn-platzi:hover {
-  background-color: #82ad36;
+.btn-main:hover {
+  background-color: #57ba5f;
+  border: 1px solid #5fd068;
 }
+.btn-outline-light:focus,
+.btn-main:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-outline-light {
+  padding: 0.6rem 1rem;
+}
+
 #header img {
   width: 20px;
 }
@@ -53,13 +66,13 @@
 }
 
 #ignite abbr {
-  color: #82ad36;
+  color: #5fd068;
   text-decoration: none;
 }
 #footer {
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1c3643);
 }
 
-#footer {
+#footer a {
   color: white;
 }
